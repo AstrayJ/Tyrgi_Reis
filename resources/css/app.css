@@ -1,3 +1,183 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: #FA7268;
+    width: 100%;
+    height: 100%;
+}
+
+.riba {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color: #FA7268;
+   
+}
+
+
+.nupp {
+    position: sticky;
+    margin-left: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 40px;
+    padding: 10px 30px;
+    background-color: rgb(226, 145, 145);
+    color: black;
+    border-radius: 10px;
+}
+
+.nupp:hover {
+    color:#C62368;
+}
+
+.pealkiri {
+    text-align: center;
+    justify-content: center;
+    position: sticky;
+    font-size: 120px;
+    word-spacing: normal;
+    letter-spacing: 0.5em;
+}
+.kastid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    white-space: pre-wrap;
+}
+
+
+
+
+.kirjeldus {
+
+}
+
+.inimesed {
+    
+}
+
+.pildid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 10px 30px;
+    
+    
+    
+   
+}
+
+.pilt {
+    height: 1000px;
+    width: 466px;
+    
+}
+
+.pildikast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+#arrow:hover polygon {
+    fill: black;
+
+}
+
+.madis {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.villu {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.suvaline {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.4s ease;
+}
+
+.pilditekst1 {
+    opacity: 0;
+
+}
+
+.pilditekst2 {
+    opacity: 0;
+}
+
+.madis:hover .pilditekst1 {
+    opacity: 1;
+    background-color: #f6f1f3;
+    border-radius: 8px;
+    transition: opacity 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
+    
+}
+
+.villu:hover .pilditekst2 {
+    opacity: 1;
+    background-color: #f6f1f3;
+    border-radius: 8px;
+    transition: opacity 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+.suvaline:hover .pilditekst2 {
+    opacity: 1;
+    background-color: #f6f1f3;
+    border-radius: 8px;
+    transition: opacity 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+
+.madis:hover {
+    transform: translate(20px, 20px);
+    
+    
+}
+
+
+.madisepilt {
+    height: 208px;
+    width: 250px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 8px;
+    
+
+}
+
+.tulijad {
+    position: relative;
+    
+}
+
+.tulijad:hover .madis
+    {
+    transform: translate(80px, 80px);
+    transition: transform 0.3s ease;
+    
+}
+
+.tulijad:hover .villu {
+    transform: translate(-80px, -80px);
+    transition: transform 0.3s ease;
+}
+
+.tulijad:hover .suvaline {
+    transform: translate(170px, -120px);
+    transition: transform 0.3s ease;
+}
