@@ -56,17 +56,17 @@ export default function Welcome() {
 
                             <div className="madis" style={{rotate: "4deg", borderRadius: "8px"}}>
                                 <img className="madisepilt" src="https://f9.pmo.ee/Kt9pCrKOsGZ_O7w5qBqtu4Crbe4=/685x0/nginx/o/2009/08/27/227195t1h2cad.jpg"></img>
-                                <h1 className="pilditekst1">Kirjeldus??</h1>
+                                <h1 className="pilditekst1">Sadis Momelar. Reisi juht</h1>
                             </div>
 
                             <div className="villu" style={{ position: "absolute", top: "10%", left: "30%", rotate: "-4deg" }}>
                                 <img className="madisepilt" src="https://real.edu.ee/wp-content/uploads/2018/10/Villu-Raja_2.jpg"></img>
-                                <h1 className="pilditekst2">Kirjeldus?</h1>
+                                <h1 className="pilditekst2">Rillu Vaja. Klassijuhataja</h1>
                             </div>
 
                             <div className="suvaline" style={{ position: "absolute", top: "20%", left: "40%", rotate: "-4deg" }}>
                                 <img className="madisepilt" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png"></img>
-                                <h1 className="pilditekst2">Kirjeldus?</h1>
+                                <h1 className="pilditekst2">Tõik keised</h1>
                             </div>
                         </div>
 
