@@ -10,10 +10,11 @@
         "laravel/breeze": "^2.0",
         "laravel/framework": "^11.0",
         "laravel/sanctum": "^4.0",
+        "laravel/socialite": "^5.13",
         "laravel/tinker": "^2.9",
-        "tightenco/ziggy": "^2.0",
         "league/flysystem-local": "^3.0",
-        "league/mime-type-detection": "^1.0"
+        "league/mime-type-detection": "^1.0",
+        "tightenco/ziggy": "^2.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
