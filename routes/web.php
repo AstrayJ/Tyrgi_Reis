@@ -22,6 +22,10 @@ Route::get('/meist', function () {
     return Inertia::render('Meist');
 })->name('meist');
 
+Route::get('/ajakava', function () {
+    return Inertia::render('Ajakava');
+})->name('ajakava');
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
