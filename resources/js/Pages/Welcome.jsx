@@ -76,12 +76,10 @@ export default function Welcome() {
                 <h6 style={{fontSize: "40px", marginTop: "40px", textAlign: "center", justifyContent: "center"}}>HOTELL</h6>
                 <div className="pildikast">
                     <div  onClick={() => {
-                        if (count > pildid.length -1 ) {
-                            setCount(0)
-                        } 
+                        
                         
                         if (count === 0) {
-                            setCount(pildid.length -1)
+                            setCount(pildid.length -3)
                         }
                         else {setCount(count -1)}
                         console.log(count)
@@ -97,10 +95,14 @@ export default function Welcome() {
                 
                     
                     
-                    <div className="pildid">{pildid[count]}</div>
+                    <div className="pildid">
+                        <div style={{opacity: 0.5}}>{pildid[count]}</div>
+                        <div>{pildid[count+1]}</div>
+                        <div style={{opacity: 0.5, width: "300px", height: "300px", top: "50%", left: "50%", textAlign: "center"}}>{pildid[count+2]}</div>
+                    </div>
                     
-                    <div onMo onClick={() => {
-                        if (count === pildid.length -1 ) {
+                    <div onClick={() => {
+                        if (count === pildid.length -3 ) {
                             setCount(0)
                         } else {setCount(count +1)}
                         console.log(count)
