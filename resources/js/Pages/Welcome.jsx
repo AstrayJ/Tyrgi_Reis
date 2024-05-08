@@ -41,8 +41,8 @@ export default function Welcome() {
                     <div className="kirjeldus">
                         <h6 style={{fontSize: "40px", marginTop: "40px", marginBottom: "40px"}}>REISI KIRJELDUS</h6>
                         <ul style={{listStyleType: "circle", whiteSpace: "pre-wrap"}}>
-                            <li>asdf</li>
-                            <li>dhsdfg asdfasdfasdf asdfasdf asddfgfdhdfgh rag sdh sthh assf asdf asdfasdf sdfgg sdfg sdfg sdf g</li>
+                            <li>Reisi kestvus: <strong>20.04 - 27.04</strong></li>
+                            <li></li>
                             <li>dffsdf</li>
                         </ul>
 
