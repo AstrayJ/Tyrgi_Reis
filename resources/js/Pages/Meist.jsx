@@ -4,8 +4,9 @@ export default function Meist() {
 
     return (
         <>
-            <div>
-                <h1>asdfasdf</h1>
+            <div style={{paddingLeft: "20%", paddingRight: "20%"}}>
+                
+                
             </div>
         </>
     )
