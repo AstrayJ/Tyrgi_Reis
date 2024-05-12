@@ -76,36 +76,32 @@ export default function Welcome() {
                 </div>
                 <h6 style={{fontSize: "40px", marginTop: "40px", textAlign: "center", justifyContent: "center"}}>HOTELL</h6>
                 <div className="pildikast">
-                    <div  >
-                        <button>
-                            <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
-                                <polygon points="0,25 40,0 40,12.5 50,12.5 50,37.5 40,37.5 40,50" fill="none" stroke="#000" strokeWidth="5"/>
-                            </svg>
-                        </button>
-                  
-                    </div>
                 
-                    
                     
                     <div className="pildid">
                         <div style={{opacity: 0.5, width: "300px"}}><button onClick={() => {
                                                                     setCount((count - 1 + pildid.length)%pildid.length)
                                                                     console.log(count)
+                                                                    document.getElementById("keskmine").classList.remove("tekib")
+                                                                    setTimeout(() => {
+                                                                        document.getElementById("keskmine").classList.add("tekib")
+                                                                    }, 10);
+                                                                    
+                                                                    
                                                                     }}>{pildid[(count - 1 + pildid.length)%pildid.length]}</button></div>
-                        <div>{pildid[count]}</div>
+                        <div id="keskmine" className="tekib">{pildid[count]}</div>
                         <div style={{opacity: 0.5, width: "300px"}}><button onClick={() => {
                                                                         setCount((count +1)%pildid.length)
                                                                         console.log(count)
+                                                                        document.getElementById("keskmine").classList.remove("tekib")
+                                                                        setTimeout(() => {
+                                                                            document.getElementById("keskmine").classList.add("tekib")
+                                                                        }, 10);
+                                                                        
                                                                     }}>{pildid[(count + 1)%pildid.length]}</button></div>
                     </div>
                     
-                    <div >
-                        <button>
-                            <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
-                                <polygon points="50,25 10,0 10,12.5 0,12.5 0,37.5 10,37.5 10,50" fill="none" stroke="#000" strokeWidth="5"/>
-                            </svg>
-                        </button> 
-                    </div>
+                    
                 </div>
                 
 
