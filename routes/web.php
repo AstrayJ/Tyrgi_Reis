@@ -20,7 +20,7 @@ Route::get('/dashboard', function () {
 
 Route::get('/meist', function () {
     return Inertia::render('Meist');
-})->name('meist');
+});
 
 Route::get('/ajakava', function () {
     return Inertia::render('Ajakava');
