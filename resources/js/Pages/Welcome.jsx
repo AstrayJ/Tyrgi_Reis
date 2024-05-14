@@ -51,7 +51,7 @@ export default function Welcome() {
 
                     <div className="kirjeldus">
                         <h6 style={{fontSize: "40px", marginTop: "40px", marginBottom: "40px"}}>MIKS MINNA TÜRKI?</h6>
-                        <ol style={{listStyleType: "circle", whiteSpace: "pre-wrap"}}>
+                        <ol style={{ whiteSpace: "pre-wrap"}}>
                             <li>Nädal aega <strong>"soojal"</strong> maal.</li>
                             <li>Miks mitte. </li>
                             <li>Et sa ei peaks uuesti minema. </li>

@@ -6,24 +6,7 @@ export default function Meist() {
 
     useEffect(()=>{
 
-        const karussell = document.querySelector(".väline")
-        const karussellElements = document.querySelectorAll(".karussell")
-        let wasIntersecting = false
-
-    
-
-
-        function callBackFunction2(entries) {
-            entries.forEach(entry => {
-                if (!entry.isIntersecting && wasIntersecting) {
-                    karussell.prepend(karussellElements[karussellElements.length -1])
-                }
-                wasIntersecting = entry.isIntersecting
-            })
-        }
-
-        const observer1 = new IntersectionObserver(callBackFunction2, {rootMargin: "100px"})
-        observer1.observe(karussellElements[0])
+        
 
 
         const osad = [
@@ -84,8 +67,10 @@ export default function Meist() {
                         <div style={{marginLeft: "15%"}}>
                             <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"></img>
                         </div>
-                        <button style={{opacity: 0.5, width: "300px"}} onClick={()=>window.location.href = route("Welcome")}>Tagasi</button>
+                        <button style={{opacity: 0.5, width: "300px"}} onClick={()=>window.location.href = "/"}>Tagasi</button>
                     </div>
+
+                    
                     
                 </div>
             </div>
