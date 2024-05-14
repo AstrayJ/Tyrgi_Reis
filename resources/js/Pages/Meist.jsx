@@ -62,9 +62,10 @@ export default function Meist() {
                         <div style={{marginLeft: "15%"}}>
                             <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"></img>
                         </div>
+                        <button style={{opacity: 0.5, width: "300px"}} onClick={()=>window.location.href = route("Welcome")}>Tagasi</button>
                     </div>
 
-                    <div style={{opacity: 0.5, width: "300px"}}><button onClick={()=>window.location.href = route("Welcome")}>Tagasi</button></div>
+                     
                     
                 </div>
             </div>

@@ -22,6 +22,11 @@ Route::get('/meist', function () {
     return Inertia::render('Meist');
 });
 
+
+Route::get('/welcome', function () {
+    return Inertia::render('Welcome');
+})->name('Welcome');
+
 Route::get('/ajakava', function () {
     return Inertia::render('Ajakava');
 })->name('ajakava');
