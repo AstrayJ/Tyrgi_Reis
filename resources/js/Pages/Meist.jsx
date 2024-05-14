@@ -60,7 +60,7 @@ export default function Meist() {
                     <div id="tegelane1" className="kastid2">
                         <div>
                         
-                        <h3 style={{fontSize: "36px", lineHeight: "1.16", whiteSpace: "pre-wrap"}}>Tere! asdfdsf gggg ggggggg ggggggg gggggggg g gggggggggggggggg</h3>
+                        <h3 style={{fontSize: "36px", lineHeight: "1.16", whiteSpace: "pre-wrap"}}>Frank Richard Armin Kolk on  .</h3>
                         </div>
                         <div style={{marginLeft: "15%"}}>
                             <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"></img>
@@ -68,46 +68,23 @@ export default function Meist() {
                     </div>
                     <div id="tegelane2" className="kastid2" >
                         <div style={{marginLeft: "15%"}}>
-                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"></img>
+                            <img src="https://jalgpall.ee/images/players/dc309d41565000b4de08f7ef0e5d6273"></img>
                         </div>
                         <div>
                         
-                        <h3 style={{fontSize: "36px", lineHeight: "1.16", whiteSpace: "pre-wrap"}}>Tere! asdfdsf gggg ggggggg ggggggg gggggggg g gggggggggggggggg</h3>
+                        <h3 style={{fontSize: "36px", lineHeight: "1.16", whiteSpace: "pre-wrap"}}>Karl Erik Lehtma on tipptasemel <i>frontend</i> 'i programmeerija. Palka ta selle eest veel ei saa. </h3>
                         </div>
                         
                     </div>
                     <div id="tegelane3" className="kastid2" >
                         <div>
                         
-                        <h3 style={{fontSize: "36px", lineHeight: "1.16", whiteSpace: "pre-wrap"}}>Tere! asdfdsf gggg ggggggg ggggggg gggggggg g gggggggggggggggg</h3>
+                        <h3 style={{fontSize: "36px", lineHeight: "1.16", whiteSpace: "pre-wrap"}}>Jarl Justus Hellat on professionaalne <i>backend</i> 'i programmeerija. Palka ta selle eest ei tohiks saada. Kunagi.</h3>
                         </div>
                         <div style={{marginLeft: "15%"}}>
                             <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"></img>
                         </div>
-                    </div>
-
-                    <div id="tegelane4">
-
-                        <div className="väline" style={{display: "flex"}}>
-                            <div className="karussell" id="piltnr1">
-                                <img style={{width: "100xp", height: "100px", marginLeft: "5%", marginBottom: "10%"}} src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"></img>
-                            </div>
-                            <div className="karussell" id="piltnr2">
-                                <img style={{width: "100xp", height: "100px", marginLeft: "5%", marginBottom: "10%"}} src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"></img>
-                            </div>
-                            <div className="karussell" id="piltnr3">
-                                <img style={{width: "100xp", height: "100px", marginLeft: "5%", marginBottom: "10%"}} src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"></img>
-                            </div>
-                            <div className="karussell" id="piltnr4">
-                                <img style={{width: "100xp", height: "100px", marginLeft: "5%", marginBottom: "10%"}} src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"></img>
-                            </div>
-                            <div className="karussell" id="piltnr5">
-                                <img style={{width: "100xp", height: "100px", marginLeft: "5%", marginBottom: "10%"}} src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"></img>
-                            </div>
-                        </div>
-                            
-                            
-
+                        <button style={{opacity: 0.5, width: "300px"}} onClick={()=>window.location.href = route("Welcome")}>Tagasi</button>
                     </div>
                     
                 </div>

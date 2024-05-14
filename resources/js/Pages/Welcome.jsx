@@ -77,8 +77,7 @@ export default function Welcome() {
                     
 
                             <div className="suvaline" style={{ position: "absolute", top: "20%", left: "40%", rotate: "-4deg" }}>
-                                {/* pane link pildi sisse: https://docs.google.com/spreadsheets/d/1XdUVOR9qAS5aHRarg4FrEuhEDWKNUBVpNRKVBbKYros/edit#gid=1916537345*/}
-                                <img className="madisepilt" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png"></img>
+                                <button onClick={()=>window.open("https://docs.google.com/spreadsheets/d/1XdUVOR9qAS5aHRarg4FrEuhEDWKNUBVpNRKVBbKYros/edit#gid=1138347038")} target="_blank"> <img className="madisepilt" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png"></img> </button>
                                 <h1 className="pilditekst2">Tõik keised</h1>
                             </div>
                         </div>
@@ -86,6 +85,18 @@ export default function Welcome() {
                     </div>
 
                 </div>
+
+                <div className="miks?tulla">
+                        <h6 style={{fontSize: "40px", position: "absolute", top: "90%", left: "40%",}}>MIKS MINNA TÜRKI?</h6>
+                        <ol style={{listStyleType: "circle", whiteSpace: "pre-wrap"}}>
+                            <li>Nädal aega <strong>"soojal"</strong> maal.</li>
+                            <li>Miks mitte. </li>
+                            <li>Et sa ei peaks uuesti minema. </li>
+                        </ol>
+
+
+                    </div>
+
                 <h6 style={{fontSize: "40px", marginTop: "40px", textAlign: "center", justifyContent: "center"}}>HOTELL</h6>
                 <div className="pildikast">
                 
@@ -112,6 +123,7 @@ export default function Welcome() {
                                                                         
                                                                     }}>{pildid[(count + 1)%pildid.length]}</button></div>
                     </div>
+                    
                     
                     
                 </div>
