@@ -48,7 +48,17 @@ export default function Welcome() {
 
 
                     </div>
-                    
+
+                    <div className="kirjeldus">
+                        <h6 style={{fontSize: "40px", marginTop: "40px", marginBottom: "40px"}}>MIKS MINNA TÜRKI?</h6>
+                        <ul style={{ whiteSpace: "pre-wrap"}}>
+                        <li><strong>Reisi kestvus: 20.04 - 27.04</strong></li>
+                            <li><strong>Kirjeldus</strong>: Ilmad olid mõnusalt soojad, päikest oli piisavalt, Atatürki nägi igalpool. </li>
+                            <li>Kuigi Türgi väga meeldis ei soovi sinna kunagi enam minna. </li>
+                        </ul>
+
+
+                    </div>
                     
                     <div className="inimesed">
                         <h6 style={{fontSize: "40px", marginTop: "40px", marginBottom: "40px"}}>KES TULEVAD🤷‍♀️🙈🙊</h6>
@@ -63,6 +73,8 @@ export default function Welcome() {
                                 <img className="madisepilt" src="https://real.edu.ee/wp-content/uploads/2018/10/Villu-Raja_2.jpg"></img>
                                 <h1 className="pilditekst2">Rillu Vaja. Klassijuhataja</h1>
                             </div>
+
+                    
 
                             <div className="suvaline" style={{ position: "absolute", top: "20%", left: "40%", rotate: "-4deg" }}>
                                 {/* pane link pildi sisse: https://docs.google.com/spreadsheets/d/1XdUVOR9qAS5aHRarg4FrEuhEDWKNUBVpNRKVBbKYros/edit#gid=1916537345*/}

@@ -58,6 +58,16 @@ body {
 }
 .kastid {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    white-space: pre-wrap;
+    padding-bottom: 5%;
+    opacity: 1;
+}
+
+.kastid2 {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
     justify-content: center;
@@ -208,4 +218,16 @@ body {
 
 .tekib {
     animation: tekkimine 2s;
+}
+
+@keyframes liikumine {
+    from {transform: translateX(0px);}
+    to{
+        transform: translateX(-1120px);
+    }
+}
+
+.karussell {
+    animation: liikumine 20s linear infinite;
+    margin-left: 10%;
 }
