@@ -51,11 +51,11 @@ export default function Welcome() {
 
                     <div className="kirjeldus">
                         <h6 style={{fontSize: "40px", marginTop: "40px", marginBottom: "40px"}}>MIKS MINNA TÜRKI?</h6>
-                        <ul style={{ whiteSpace: "pre-wrap"}}>
-                        <li><strong>Reisi kestvus: 20.04 - 27.04</strong></li>
-                            <li><strong>Kirjeldus</strong>: Ilmad olid mõnusalt soojad, päikest oli piisavalt, Atatürki nägi igalpool. </li>
-                            <li>Kuigi Türgi väga meeldis ei soovi sinna kunagi enam minna. </li>
-                        </ul>
+                        <ol style={{listStyleType: "circle", whiteSpace: "pre-wrap"}}>
+                            <li>Nädal aega <strong>"soojal"</strong> maal.</li>
+                            <li>Miks mitte. </li>
+                            <li>Et sa ei peaks uuesti minema. </li>
+                        </ol>
 
 
                     </div>
@@ -86,16 +86,7 @@ export default function Welcome() {
 
                 </div>
 
-                <div className="miks?tulla">
-                        <h6 style={{fontSize: "40px", position: "absolute", top: "90%", left: "40%",}}>MIKS MINNA TÜRKI?</h6>
-                        <ol style={{listStyleType: "circle", whiteSpace: "pre-wrap"}}>
-                            <li>Nädal aega <strong>"soojal"</strong> maal.</li>
-                            <li>Miks mitte. </li>
-                            <li>Et sa ei peaks uuesti minema. </li>
-                        </ol>
-
-
-                    </div>
+                
 
                 <h6 style={{fontSize: "40px", marginTop: "40px", textAlign: "center", justifyContent: "center"}}>HOTELL</h6>
                 <div className="pildikast">
