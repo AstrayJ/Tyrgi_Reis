@@ -55,7 +55,7 @@ export default function Meist() {
                         </div>
                         <div>
                         
-                        <h3 style={{fontSize: "36px", lineHeight: "1.16", whiteSpace: "pre-wrap"}}>Karl Erik Lehtma on tipptasemel <i>frontend</i> 'i programmeerija. Palka ta selle eest veel ei saa. </h3>
+                        <button onClick={()=>window.open("https://jalgpall.ee/voistlused/player/31965")}><h3 style={{fontSize: "36px", lineHeight: "1.16", whiteSpace: "pre-wrap"}}>Karl Erik Lehtma on tipptasemel <i>frontend</i> 'i programmeerija. Palka ta selle eest veel ei saa. </h3></button>
                         </div>
                         
                     </div>
