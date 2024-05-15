@@ -43,7 +43,7 @@ export default function Meist() {
                     <div id="tegelane1" className="kastid2">
                         <div>
                         
-                        <h3 style={{fontSize: "36px", lineHeight: "1.16", whiteSpace: "pre-wrap"}}>Frank Richard Armin Kolk on professionaalne andmebaasi haldur. Pole talle palka maksta. </h3>
+                        <h3 style={{fontSize: "36px", lineHeight: "1.16", whiteSpace: "pre-wrap"}}>Frank Richard Armin Kolk on professionaalne andmebaasi haldur, mida valitsus ei taha, et sa teaksid on see, et andmebaasi ei eksisteeri. Pole talle palka maksta. </h3>
                         </div>
                         <div style={{marginLeft: "15%"}}>
                             <img src="https://wallpapercave.com/wp/wp5554098.jpg"></img>
