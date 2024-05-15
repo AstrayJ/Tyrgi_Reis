@@ -42,8 +42,8 @@ export default function Welcome() {
                         <h6 style={{fontSize: "40px", marginTop: "40px", marginBottom: "40px"}}>REISI KIRJELDUS</h6>
                         <ul style={{listStyleType: "circle", whiteSpace: "pre-wrap"}}>
                             <li><strong>Reisi kestvus: 20.04 - 27.04</strong></li>
-                            <li><strong>Kirjeldus</strong>: Ilmad olid mõnusalt soojad, päikest oli piisavalt, Atatürki nägi igalpool. </li>
-                            <li>Kuigi Türgi väga meeldis ei soovi sinna kunagi enam minna. </li>
+                            <li><strong>Kirjeldus</strong>: Käisime Istanbulis. Ilmad olid mõnusalt soojad, päikest oli piisavalt, Atatürki nägi igalpool. </li>
+                            <li>Kuigi Istanbul väga meeldis ei soovi sinna kunagi enam minna. </li>
                         </ul>
 
 
@@ -88,7 +88,7 @@ export default function Welcome() {
 
                 
 
-                <h6 style={{fontSize: "40px", marginTop: "40px", textAlign: "center", justifyContent: "center"}}>HOTELL</h6>
+                <h6 style={{fontSize: "40px", marginTop: "40px", textAlign: "center", justifyContent: "center"}}>HOTELL PIYA SPORT</h6>
                 <div className="pildikast">
                 
                     
