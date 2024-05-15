@@ -28,6 +28,7 @@ export default function Welcome() {
                     <button className="nupp" onClick={()=>window.open("https://www.lennupiletid.ee/et/lennuhinnad/o/tallinn-tll/d/antalya-ayt/t/1/cl/y")}>Türki piletid</button>
                     <button className="nupp"> <a href = "https://drive.google.com/drive/folders/1-3ZvfWugqgpVN2TVP-QlIetGw2c9zCX_" target="_blank"> Pildid</a></button>
                     
+                    
                 </div>
                 
                 
